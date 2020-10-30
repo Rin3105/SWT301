@@ -81,10 +81,10 @@ public class House extends Interface{
     @Override
     public double calTotalPrice() {
         if(type.equals("Super")){
-            totalPrice = area * price;
+            totalPrice = area * price*10;
         }
         else{
-            totalPrice = area * price * 0.9;
+            totalPrice = area * price * 5.9;
         }
         return totalPrice;
     }
